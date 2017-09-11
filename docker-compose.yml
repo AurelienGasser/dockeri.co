@@ -1,0 +1,7 @@
+version: '3'
+services:
+    wkhtml:
+        image: mkenney/badges:latest
+        container_name: docker-badges
+        ports:
+            - "80"

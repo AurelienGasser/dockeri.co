@@ -1,8 +1,6 @@
 FROM nodesource/node:4.2
 
-MAINTAINER William Blankenship <william.jblankenship@gmail.com>
-
-EXPOSE 8888
+EXPOSE 80
 ENV NODE_ENV production
 VOLUME /var/log
 WORKDIR /usr/src/app
