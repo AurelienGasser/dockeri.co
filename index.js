@@ -126,10 +126,10 @@ function jsonArrayStream(src,dst) {
 
 minix.setFallback(function(req,res) {
     res.writeHead(307, {
-        "location" : "https://hub.docker.com/u/mkenney/badges",
+        "location" : "https://hub.docker.com/r/mkenney/badges/",
         "Content-Type" : "text/html"
     });
-    res.end("<html><head><title>Moved</title></head><body><a href='https://hub.docker.com/u/mkenney/badges'>https://hub.docker.com/u/mkenney/badges</a></body><html>")
+    res.end("<html><head><title>Moved</title></head><body><a href='https://hub.docker.com/r/mkenney/badges/'>https://hub.docker.com/r/mkenney/badges/</a></body><html>")
 })
 
 http.createServer(function(req,res) {
